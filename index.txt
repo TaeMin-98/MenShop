@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    	<meta charset="UTP-8">
+    	<title>Ecommerce Website</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+  </head>
+  <body>
+  
+  <div class="header">
+    <div class="container">
+      <div class = "navbar">
+        <div class="logo">
+          <img src="data:image/png;base64,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" width="125px">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+        <img src="" width="30px" height="30px">
+      </div>
+      <div class="row">
+        <div class="col-2">        
+        <h1>Follow your passion!<br> Lee Seung Yong babo meung cheung ah</p>
+        <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+          <img src="img1.jpeg" width='250px' weight="500px">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-------- fetured categories ------>
+  <div class="categories">
+  <div class="small-container">
+     <div class="row">
+      <div class="col-3">
+        <img src="img2.jpeg" width='250px' weight="500px">
+      </div>
+      <div class="col-3">
+         <img src="img3.jpeg" width='250px' weight="500px">
+      </div>
+      <div class="col-3">
+         <img src="img4.jpeg" width='250px' weight="500px">
+      </div>
+  </div>
+    </div>
+  </div>
+    <!-------- fetured products ------>
+    <div class="small-container">
+      <h2>Featured Product</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="img5.jpeg" width='250px' weight="500px">
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$25.00</p>
+        </div>
+                <div class="col-4">
+          <img src="img6.jpeg" width='250px' weight="500px">
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+                <div class="col-4"> 
+          <img src="img3.jpeg" width='250px' weight="500px">
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$36.00</p>
+        </div>
+                <div class="col-4">
+          <img src="img5.jpeg" width='250px' weight="500px">
+          <h4>Blue Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+</html>
