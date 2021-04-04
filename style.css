@@ -48,8 +48,8 @@ p {
 .row {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: space-around;
+   /* flex-wrap: wrap;*/
 }
 
 .col-2 {
