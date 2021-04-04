@@ -48,7 +48,7 @@ p {
 .row {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   justify-content: space-around;
 
 }
@@ -327,7 +327,7 @@ ul {
 
   nav ul li{
     display: block;
-    margin-right: 20px;
+    margin-right: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
