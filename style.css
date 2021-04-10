@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: borderbox;
+  box-sizing: border-box;
 }
 
 body {
@@ -48,7 +48,7 @@ p {
 .row {
   display: flex;
   align-items: center;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
   justify-content: space-around;
 
 }
@@ -314,7 +314,7 @@ ul {
 
 /*-- media query for menu-----*/
 
-/*
+
 @media only screen and (max-width: 800px) {
   nav ul {
     position: absolute;
@@ -342,10 +342,10 @@ ul {
     cursor: pointer;
   }
 }
-*/
+
 /*-- media query for less than 600 screen size-----*/
 
-/*
+
 @media only screen and (max-width: 800px){
   .row{
     text-align: center;
@@ -354,4 +354,4 @@ ul {
     flex-basis: 100;
   }
 }
-*/
+
